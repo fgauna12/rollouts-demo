@@ -11,7 +11,7 @@ spec:
   - name: success-rate
     initialDelay: 60s
     interval: 20s
-    successCondition: len(result) == 0 || result[0] > 0.90
+    successCondition: true
     provider:
       prometheus:
         address: http://prometheus-kube-prometheus-prometheus.monitoring:9090

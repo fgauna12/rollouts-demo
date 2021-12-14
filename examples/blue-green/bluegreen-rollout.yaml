@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: bluegreen-demo
-        image: argoproj/rollouts-demo:bad-green
+        image: argoproj/rollouts-demo:bad-blue
         imagePullPolicy: Always
         ports:
         - name: http
